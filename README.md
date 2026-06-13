@@ -1,15 +1,22 @@
-# Bioinformatics Lab
+# DNA Toolkit
 
-A collection of bioinformatics projects built while learning Bioinformatics.
+A beginner bioinformatics project built with Python.
 
-## Projects
+## Features
 
-### 01_DNA_Toolkit
-Current Features:
-- DNA sequence input
-- Nucleotide counting (A, T, G, C)
-
-Upcoming:
+- DNA Sequence Length
+- Nucleotide Count (A, T, G, C)
 - GC Content Calculation
-- DNA → RNA Conversion
-- Reverse Complement
+- DNA to RNA Transcription
+- Reverse Complement Generation
+
+## Example
+
+Input:
+ATGC
+
+Output:
+Length: 4
+GC Content: 50%
+RNA: AUGC
+Reverse Complement: GCAT
