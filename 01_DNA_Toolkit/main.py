@@ -27,5 +27,5 @@ rna = dna.replace("T", "U")
 print("RNA sequence:", rna)
 
 # Finding the reverse complement of DNA
-reverse_complement = dna[::-1].replace("A", "t").replace("T", "a").replace("G", "c").replace("C", "g").upper()
+reverse_complement = dna[::-1].replace("A", "t").replace("T", "a").replace("G", "c").replace("C", "gat").upper()
 print("Reverse complement of DNA:", reverse_complement)
