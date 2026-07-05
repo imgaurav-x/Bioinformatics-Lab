@@ -20,3 +20,26 @@ Length: 4
 GC Content: 50%
 RNA: AUGC
 Reverse Complement: GCAT
+
+
+# FASTA Analyzer
+
+A beginner bioinformatics project built using Python.
+
+## Features
+- Read FASTA files
+- Extract sequence names
+- Extract DNA sequences
+- Calculate sequence length
+- Calculate GC content
+
+## Example Input
+
+>DNA_Sequence_1
+ATGCGCGCATATATAT
+
+## Example Output
+
+Sequence Name: DNA_Sequence_1
+Length: 16
+GC Content: 50.0%
